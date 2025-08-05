@@ -18,6 +18,10 @@ console.log(path.join(__dirname, 'resources/views'))
 
 // Routes init
 route(app);
+const db = require('./config/db');
+
+// Connect to DB  
+db.connect();
 
 // app.use(express.static(path.join(__dirname, 'public')))
 

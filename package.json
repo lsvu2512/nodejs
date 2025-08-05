@@ -8,10 +8,11 @@
     "watch": "sass --watch src/resources/scss/app.scss src/public/css/app.css"
   },
   "author": "",
-  "license": "ISC", 
+  "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0"
   },
   "devDependencies": {
     "express-handlebars": "^8.0.3",
